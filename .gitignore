@@ -1,5 +1,6 @@
+# ONLY ignore the virtual environment and system cache
 venv/
-hand_gesture_samples/
-*.pkl
-*.pickle
+.venv/
+env/
 __pycache__/
+.vscode/
