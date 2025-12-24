@@ -1,0 +1,5 @@
+venv/
+hand_gesture_samples/
+*.pkl
+*.pickle
+__pycache__/
