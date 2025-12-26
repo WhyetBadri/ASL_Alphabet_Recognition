@@ -2,11 +2,11 @@
 
 This project implements a robust, real-time American Sign Language (ASL) alphabet recognition system. By combining Google’s **MediaPipe** for high-fidelity hand landmarking with a **Random Forest Ensemble** for classification, the system achieves exceptional accuracy while remaining lightweight enough to run on standard consumer hardware without a dedicated GPU.
 
-## 🌟 Significance & Impact
+##  Significance & Impact
 
 Communication barriers between the Deaf community and non-signers often necessitate expensive interpreters or slow text-based exchanges. This solution provides a bridge by translating 26 static hand gestures into text in real-time. Unlike traditional CNN-based approaches that process raw pixels—making them sensitive to lighting and background noise—this project extracts **geometric hand landmarks**, ensuring the model focuses exclusively on the structural pose of the hand.
 
-## 🏗 System Architecture
+##  System Architecture
 
 The pipeline follows a modular design from data acquisition to real-time inference:
 
@@ -17,7 +17,7 @@ The pipeline follows a modular design from data acquisition to real-time inferen
 
 ---
 
-## 📊 Methodology & Dataset
+##  Methodology & Dataset
 
 ### 1. Dataset Generation
 
@@ -36,7 +36,7 @@ Raw images are never fed into the classifier. Instead, we use a sophisticated pr
 
 ---
 
-## 🧠 Model Architecture & Regularization
+##  Model Architecture & Regularization
 
 ### Random Forest Classifier
 
@@ -59,7 +59,7 @@ To ensure the model generalizes to new users, we implemented several layers of r
 
 ---
 
-## 📈 Performance Results
+##  Performance Results
 
 The model achieves a **Validation Accuracy of 98.5%**.
 
@@ -72,7 +72,7 @@ Our error analysis showed that the most common (though rare) misclassifications 
 
 ---
 
-## 🚀 Installation & Reproducibility
+##  Installation & Reproducibility
 
 ### 1. Requirements
 
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 ├── asl_forest_model.pkl       # The trained Random Forest model
